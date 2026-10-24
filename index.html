@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Editor VH · Alinhamento</title>
+  <meta name="theme-color" content="#1700ff">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231700ff'/%3E%3Ctext x='16' y='21.5' font-family='Arial' font-weight='700' font-size='13' fill='white' text-anchor='middle'%3EVH%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- LOGIN -->
+  <main id="login" class="login" hidden>
+    <div class="login-brand">
+      <div class="logo-mark">VH</div>
+      <h1 class="login-title">Editor VH<br><em>alinhamento</em></h1>
+      <p class="login-sub">Cada mudança no agente de edição, registrada, testada e aprovada pelos dois.</p>
+    </div>
+    <form id="loginForm" class="login-card" autocomplete="on" novalidate>
+      <label class="field">
+        <span>Usuário</span>
+        <input name="user" autocomplete="username" autocapitalize="none" spellcheck="false" placeholder="seu primeiro nome" required>
+      </label>
+      <label class="field">
+        <span>Senha</span>
+        <input name="pass" type="password" autocomplete="current-password" placeholder="sua senha" required>
+      </label>
+      <p class="login-error" id="loginError" role="alert"></p>
+      <button class="btn btn-primary btn-lg" type="submit">Entrar</button>
+    </form>
+  </main>
+
+  <!-- APP -->
+  <div id="app" class="app" hidden>
+    <header class="topbar">
+      <div class="tb-left">
+        <button class="icon-btn only-mobile" id="menuBtn" aria-label="Abrir menu">
+          <svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+        <div class="brand"><span class="logo-mark sm">VH</span><span class="brand-text">Editor VH <em>alinhamento</em></span></div>
+      </div>
+      <div class="tb-center">
+        <button class="btn btn-ghost" id="todayBtn" title="Hoje (T)">Hoje</button>
+        <div class="nav-arrows">
+          <button class="icon-btn" id="prevBtn" aria-label="Anterior"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></button>
+          <button class="icon-btn" id="nextBtn" aria-label="Próximo"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>
+        </div>
+        <h2 class="range-label" id="rangeLabel"></h2>
+      </div>
+      <div class="tb-right">
+        <div class="sync" id="sync" title=""><span class="sync-dot"></span><span class="sync-text"></span></div>
+        <div class="segmented" id="viewSwitch" role="tablist">
+          <button role="tab" data-view="day">Dia</button>
+          <button role="tab" data-view="week">Semana</button>
+          <button role="tab" data-view="list">Lista</button>
+          <span class="seg-pill" aria-hidden="true"></span>
+        </div>
+        <div class="menu-wrap">
+          <button class="avatar" id="avatarBtn" aria-haspopup="menu" aria-expanded="false"></button>
+          <div class="menu" id="userMenu" role="menu" hidden></div>
+        </div>
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar" id="sidebar"></aside>
+      <div class="sidebar-scrim" id="sidebarScrim"></div>
+      <main class="main" id="main"></main>
+    </div>
+
+    <button class="fab only-mobile" id="fab" aria-label="Nova anotação">
+      <svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
+    </button>
+  </div>
+
+  <!-- Painel de detalhes -->
+  <div class="scrim" id="drawerScrim"></div>
+  <aside class="drawer" id="drawer" aria-hidden="true" tabindex="-1"></aside>
+
+  <!-- Modal -->
+  <div class="modal-wrap" id="modalWrap" hidden></div>
+
+  <div class="toasts" id="toasts" aria-live="polite"></div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
