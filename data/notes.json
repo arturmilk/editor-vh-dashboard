@@ -1,1 +1,20 @@
-{ "version": 1, "notes": [] }
+{
+  "version": 1,
+  "notes": [
+    {
+      "id": "mvn44rxxbh55vn",
+      "author": "arthur",
+      "title": "criei o sistema de acompanhamento. o Dashboard",
+      "body": "é pra gente ter bem definido cada mudança que a gente fazer no projeto. tudo fica conectado no github. então a qualquer momento a gent epode baixar o modelo atualizado que vai estar no git.",
+      "stage": "Outro",
+      "start": "2026-10-24T22:00:00.000Z",
+      "duration": 60,
+      "approved": false,
+      "approvedBy": null,
+      "approvedAt": null,
+      "createdAt": "2026-10-25T00:52:05.877Z",
+      "updatedAt": "2026-10-25T00:52:05.877Z",
+      "comments": []
+    }
+  ]
+}
