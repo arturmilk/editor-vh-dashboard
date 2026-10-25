@@ -60,6 +60,21 @@
       "createdAt": "2026-10-25T16:30:02.000Z",
       "updatedAt": "2026-10-25T16:30:02.000Z",
       "comments": []
+    },
+    {
+      "id": "mvo1mzncc2cog5",
+      "author": "victor",
+      "title": "Porta 2: estilos, legenda e agente de motion",
+      "body": "- Três estilos: Estúdio, Limpo, Impacto.\n- Legenda e motion ligáveis separadamente.\n- Agente de motion: número vira contador, ênfase da voz vira palavra grande ou punch-in, b-roll encaixado pelo nome do arquivo.\n- Folha de contato com um quadro por motion; clicar numa palavra põe um motion novo.\n\nPR: https://github.com/vhbrilhante/foccodoggo/pull/4 (commit 4aabaf9)",
+      "stage": "Motion",
+      "start": "2026-10-24T17:00:00.000Z",
+      "duration": 120,
+      "approved": false,
+      "approvedBy": null,
+      "approvedAt": null,
+      "createdAt": "2026-10-25T16:30:03.000Z",
+      "updatedAt": "2026-10-25T16:30:03.000Z",
+      "comments": []
     }
   ]
 }
