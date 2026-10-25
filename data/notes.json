@@ -90,6 +90,21 @@
       "createdAt": "2026-10-25T16:30:04.000Z",
       "updatedAt": "2026-10-25T16:30:04.000Z",
       "comments": []
+    },
+    {
+      "id": "mvo42mwc5kepw8",
+      "author": "victor",
+      "title": "Instalador para Windows (.exe)",
+      "body": "- ffmpeg e ffprobe embutidos no app: não precisa instalar Node, FFmpeg nem rodar comandos.\n- Na primeira abertura, botão \"Baixar modelo\" baixa o modelo de transcrição (~480 MB) com progresso.\n- O GitHub Actions gera o .exe a cada push (Artifacts) e publica em Release nas tags v*.\n- Testado do zero no app empacotado: baixou o modelo, Portas 1 e 2 e render final.\n\nPR: https://github.com/vhbrilhante/foccodoggo/pull/4 (commits 849b5d3, b40bbbf)\nComo testar: baixar foccodoggo-windows em https://github.com/vhbrilhante/foccodoggo/actions/runs/40215831316 e rodar o setup (o Windows avisa porque não é assinado: Mais informações → Executar assim mesmo).",
+      "stage": "Pipeline",
+      "start": "2026-10-25T17:05:00.000Z",
+      "duration": 30,
+      "approved": false,
+      "approvedBy": null,
+      "approvedAt": null,
+      "createdAt": "2026-10-25T17:38:12.204Z",
+      "updatedAt": "2026-10-25T17:38:12.204Z",
+      "comments": []
     }
   ]
 }
