@@ -30,6 +30,21 @@
       "createdAt": "2026-10-25T16:30:00.000Z",
       "updatedAt": "2026-10-25T16:30:00.000Z",
       "comments": []
+    },
+    {
+      "id": "mvo1my3sgsrlxx",
+      "author": "victor",
+      "title": "MVP: do bruto à Porta 1 (plano de edição)",
+      "body": "App desktop (Electron + React + TS). Telas Soltar → Processando → Porta 1.\n- Transcrição local com Parakeet (sherpa-onnx), timestamp por palavra.\n- Plano de corte: tira silêncios, repetições e falas fora do roteiro (se colar o roteiro).\n- Porta 1 mostra o plano e exporta o corte em MP4 (loudnorm em -14 LUFS).\n\nPR: https://github.com/vhbrilhante/foccodoggo/pull/4 (commit 5ed99f5)\nComo testar: npm install, npm run model, npm start, soltar um bruto.",
+      "stage": "Corte",
+      "start": "2026-10-24T12:45:00.000Z",
+      "duration": 120,
+      "approved": false,
+      "approvedBy": null,
+      "approvedAt": null,
+      "createdAt": "2026-10-25T16:30:01.000Z",
+      "updatedAt": "2026-10-25T16:30:01.000Z",
+      "comments": []
     }
   ]
 }
