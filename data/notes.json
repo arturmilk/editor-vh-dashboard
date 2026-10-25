@@ -15,6 +15,21 @@
       "createdAt": "2026-10-25T00:52:05.877Z",
       "updatedAt": "2026-10-25T00:52:05.877Z",
       "comments": []
+    },
+    {
+      "id": "mvo1mxc0px7hlm",
+      "author": "victor",
+      "title": "Habilidades do Claude no repo (founder, graphify, onetake)",
+      "body": "Três pacotes de skills instalados em .claude/skills do foccodoggo:\n- founder-skill (11 skills founder-*), PR #1\n- graphify (grafo de conhecimento do código), PR #2\n- onetake (filmes de lançamento com motion em HTML), PR #3. Licença PolyForm Noncommercial: uso comercial precisa de licença do autor.\n\nComo testar: abrir uma sessão do Claude no repo e chamar /founder-board, /graphify ou /onetake.",
+      "stage": "Pipeline",
+      "start": "2026-10-24T13:00:00.000Z",
+      "duration": 90,
+      "approved": false,
+      "approvedBy": null,
+      "approvedAt": null,
+      "createdAt": "2026-10-25T16:30:00.000Z",
+      "updatedAt": "2026-10-25T16:30:00.000Z",
+      "comments": []
     }
   ]
 }
