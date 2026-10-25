@@ -75,6 +75,21 @@
       "createdAt": "2026-10-25T16:30:03.000Z",
       "updatedAt": "2026-10-25T16:30:03.000Z",
       "comments": []
+    },
+    {
+      "id": "mvo1n0f4yb2pzt",
+      "author": "victor",
+      "title": "Porta 3: render final em MP4",
+      "body": "- Legenda e motion renderizados quadro a quadro numa janela escondida e enviados por pipe ao ffmpeg junto com o corte, zooms de jump cut e b-rolls.\n- Captura em faixas quando a tela é menor que 1920 px.\n- Corte com um select num fluxo só (antes estourava ~12 GB de memória).\n\nPR: https://github.com/vhbrilhante/foccodoggo/pull/4 (commit 4aabaf9)",
+      "stage": "Render/Master",
+      "start": "2026-10-24T18:15:00.000Z",
+      "duration": 45,
+      "approved": false,
+      "approvedBy": null,
+      "approvedAt": null,
+      "createdAt": "2026-10-25T16:30:04.000Z",
+      "updatedAt": "2026-10-25T16:30:04.000Z",
+      "comments": []
     }
   ]
 }
