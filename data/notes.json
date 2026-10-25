@@ -45,6 +45,21 @@
       "createdAt": "2026-10-25T16:30:01.000Z",
       "updatedAt": "2026-10-25T16:30:01.000Z",
       "comments": []
+    },
+    {
+      "id": "mvo1myvk4nid44",
+      "author": "victor",
+      "title": "Porta 1: cancelar análise, sair sem travar, ajustes do Windows",
+      "body": "- Botão Voltar cancela a transcrição no meio.\n- Fechar o app não dá mais SIGABRT (espera o decode nativo).\n- Layout 980x640, mensagens de erro legíveis, download do modelo com marcador .complete.\n- Instruções para Windows (cd /d, Node LTS e FFmpeg via winget).\n\nPR: https://github.com/vhbrilhante/foccodoggo/pull/4 (commit c050079)",
+      "stage": "Pipeline",
+      "start": "2026-10-24T16:15:00.000Z",
+      "duration": 60,
+      "approved": false,
+      "approvedBy": null,
+      "approvedAt": null,
+      "createdAt": "2026-10-25T16:30:02.000Z",
+      "updatedAt": "2026-10-25T16:30:02.000Z",
+      "comments": []
     }
   ]
 }
