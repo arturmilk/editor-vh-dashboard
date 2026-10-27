@@ -92,12 +92,20 @@
       "stage": "Render/Master",
       "start": "2026-10-24T18:15:00.000Z",
       "duration": 45,
-      "approved": false,
-      "approvedBy": null,
-      "approvedAt": null,
+      "approved": true,
+      "approvedBy": "arthur",
+      "approvedAt": "2026-10-27T12:59:51.002Z",
       "createdAt": "2026-10-25T16:30:04.000Z",
-      "updatedAt": "2026-10-25T16:30:04.000Z",
-      "comments": []
+      "updatedAt": "2026-10-27T12:59:51.002Z",
+      "comments": [
+        {
+          "id": "mvqp0di245zi2o",
+          "author": "arthur",
+          "type": "system",
+          "text": "aprovou esta alteração",
+          "at": "2026-10-27T12:59:51.002Z"
+        }
+      ]
     },
     {
       "id": "mvo42mwc5kepw8",
