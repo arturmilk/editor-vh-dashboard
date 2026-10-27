@@ -69,12 +69,20 @@
       "stage": "Motion",
       "start": "2026-10-24T17:00:00.000Z",
       "duration": 120,
-      "approved": false,
-      "approvedBy": null,
-      "approvedAt": null,
+      "approved": true,
+      "approvedBy": "arthur",
+      "approvedAt": "2026-10-27T12:59:20.899Z",
       "createdAt": "2026-10-25T16:30:03.000Z",
-      "updatedAt": "2026-10-25T16:30:03.000Z",
-      "comments": []
+      "updatedAt": "2026-10-27T12:59:20.899Z",
+      "comments": [
+        {
+          "id": "mvqozq9valwsj2",
+          "author": "arthur",
+          "type": "system",
+          "text": "aprovou esta alteração",
+          "at": "2026-10-27T12:59:20.899Z"
+        }
+      ]
     },
     {
       "id": "mvo1n0f4yb2pzt",
