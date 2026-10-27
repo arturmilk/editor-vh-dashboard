@@ -24,12 +24,20 @@
       "stage": "Pipeline",
       "start": "2026-10-24T13:00:00.000Z",
       "duration": 90,
-      "approved": false,
-      "approvedBy": null,
-      "approvedAt": null,
+      "approved": true,
+      "approvedBy": "arthur",
+      "approvedAt": "2026-10-27T13:00:39.682Z",
       "createdAt": "2026-10-25T16:30:00.000Z",
-      "updatedAt": "2026-10-25T16:30:00.000Z",
-      "comments": []
+      "updatedAt": "2026-10-27T13:00:39.682Z",
+      "comments": [
+        {
+          "id": "mvqp1f2auld4zl",
+          "author": "arthur",
+          "type": "system",
+          "text": "aprovou esta alteração",
+          "at": "2026-10-27T13:00:39.682Z"
+        }
+      ]
     },
     {
       "id": "mvo1my3sgsrlxx",
